@@ -1,0 +1,43 @@
+[package]
+name = "advanced-langton-ant"
+version = "0.1.0"
+authors = ["Claudio Mattera <claudio@mattera.it>"]
+edition = "2018"
+description = "An application that generates images and videos of multi-colour Langton's Ant walks"
+readme = "Readme.md"
+homepage = "https://gitlab.com/claudiomattera/advanced-langton-ant/"
+repository = "https://gitlab.com/claudiomattera/advanced-langton-ant/"
+license = "MIT"
+keywords = [
+    "automata",
+    "ant",
+]
+categories = [
+    "command-line-utilities",
+    "mathematics",
+    "multimedia",
+]
+publish = false
+
+
+[lib]
+name = "advanced_langton_ant"
+path = "src/lib.rs"
+bench = false
+
+[[bin]]
+name = "advanced-langton-ant"
+path = "src/main.rs"
+bench = false
+
+
+[dependencies]
+log = "0.4"
+env_logger = "0.7"
+clap = "2.33"
+image = "^0.23"
+
+[dependencies.palette]
+version = "^0.5"
+default-features = false
+features = ["std"]
