@@ -3,7 +3,7 @@ Advanced Langton's Ant
 
 This is a [Rust] application that generates images and videos of multi-colour [Langton's Ant] walks.
 
-<https://gitlab.com/claudiomattera/advanced-langton-ant/>
+<https://git.claudiomattera.it/claudiomattera/advanced-langton-ant/>
 
 ![LR](images/LR.png)
 ![LRRRRRLLR](images/LRRRRRLLR.png)
@@ -14,7 +14,7 @@ This is a [Rust] application that generates images and videos of multi-colour [L
 Installation
 ----
 
-Executables for Linux and Windows can be found in the [releases page](https://gitlab.com/claudiomattera/advanced-langton-ant/-/releases).
+Executables for Linux and Windows can be found in the [releases page](./releases).
 
 
 ### From source
