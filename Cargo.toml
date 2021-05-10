@@ -1,6 +1,6 @@
 [package]
 name = "advanced-langton-ant"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Claudio Mattera <claudio@mattera.it>"]
 edition = "2018"
 description = "An application that generates images and videos of multi-colour Langton's Ant walks"
